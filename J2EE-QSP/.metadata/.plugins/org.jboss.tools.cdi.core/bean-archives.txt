@@ -1,0 +1,6 @@
+path=C:\Users\satya\Downloads\ojdbc8.jar
+size=4036257
+archive=0
+path=C:\Users\satya\Downloads\servlet-api.jar
+size=282509
+archive=0

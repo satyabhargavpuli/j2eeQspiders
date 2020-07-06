@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;JdbcClass.java&apos; to &apos;TestApp/src/com.servlet.app&apos;&#x0D;&#x0A;- Original project: &apos;Application&apos;&#x0D;&#x0A;- Destination element: &apos;TestApp/src/com.servlet.app&apos;&#x0D;&#x0A;- Original element: &apos;com.servelts.app.JdbcClass.java&apos;" description="Copy compilation unit" destination="=TestApp/src&lt;com.servlet.app" element1="/src&lt;com.servelts.app{JdbcClass.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1548998639391" units="1" version="1.0"/>
+</session>

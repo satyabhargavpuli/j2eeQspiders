@@ -1,0 +1,14 @@
+0:0:0:0:0:0:0:1 - - [26/Jan/2019:16:56:59 +0530] "GET /registrationPage/Registration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Jan/2019:16:57:00 +0530] "GET /registrationPage/c.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Jan/2019:16:57:00 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [26/Jan/2019:16:58:27 +0530] "GET /registrationPage/first?FIRSTNAME=ramesh&LASTNAME=samana&DOB=09041994&PHNO=8179443616&GENDER=on&AGE=24&MAILID=ramesh.samana%40gmail.com&PASSWORD=brunonew1 HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2019:18:01:41 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [26/Jan/2019:18:02:31 +0530] "GET /registrationPage/first?FIRSTNAME=puli&LASTNAME=bhargav&DOB=28101994&PHNO=9908601718&GENDER=on&AGE=23&MAILID=bhargav%40gmail.com&PASSWORD=qazxsw HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2019:18:04:13 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [26/Jan/2019:18:04:15 +0530] "GET /favicon.ico HTTP/1.1" 404 1085
+0:0:0:0:0:0:0:1 - - [26/Jan/2019:18:04:19 +0530] "GET /registrationPage/Registration.html HTTP/1.1" 200 1396
+0:0:0:0:0:0:0:1 - - [26/Jan/2019:18:04:19 +0530] "GET /registrationPage/Registration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Jan/2019:18:05:04 +0530] "GET /registrationPage/first?FIRSTNAME=nani&LASTNAME=katnam&DOB=25101993&PHNO=8179446836&GENDER=male&AGE=22&MAILID=nani%40gmail.com&PASSWORD=qazxsw HTTP/1.1" 200 -
+127.0.0.1 - - [26/Jan/2019:18:08:24 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [26/Jan/2019:18:08:25 +0530] "GET /registrationPage/Registration.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [26/Jan/2019:18:09:46 +0530] "GET /registrationPage/first?FIRSTNAME=sam&LASTNAME=satya&DOB=1520155&PHNO=7894612211&GENDER=male&AGE=23&MAILID=satya%40gmail.com&PASSWORD=qwerty HTTP/1.1" 200 -

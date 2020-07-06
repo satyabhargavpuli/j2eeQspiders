@@ -1,0 +1,21 @@
+package com.form.registration;
+import java.sql.*;
+public class UpdateMobileNo {
+public static void main(String[] args) {
+	
+	Connection con= null;
+	Statement st= null;
+	String url = "jdbc:mysql://localhost:3306?user=root&password=tiger";
+	String query="update registration.form set MOBILENO='9989384612' where MOBILENO='9908601717'";
+	
+	try {
+		con=DriverManager.getConnection(url);
+		st=con.createStatement();
+		st.executeUpdate(query);
+	} catch (SQLException e) {
+		// TODO Auto-generated catch block
+		e.printStackTrace();
+	}
+	
+}
+}

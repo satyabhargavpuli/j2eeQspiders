@@ -1,0 +1,7 @@
+package com.check.app;
+
+public class DaoLogic {
+	
+	
+	
+}

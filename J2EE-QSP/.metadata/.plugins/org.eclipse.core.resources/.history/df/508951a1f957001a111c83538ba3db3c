@@ -1,0 +1,38 @@
+package com.check.app;
+
+import java.io.IOException;
+
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.ServletRequest;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+/**
+ * Servlet implementation class FirstServlet
+ */
+@WebServlet("/FirstServlet")
+public class FirstServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+
+    @Override
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+
+			String eno = req.getParameter("eno");
+               String name = req.getParameter("ename");
+               String salary = req.getParameter("salary");   
+                  
+               if(eno.isEmpty()||name.isEmpty() || salary.isEmpty()) {
+            	   RequestDispatcher dispatcher = req.getRequestDispatcher("formdata.jsp");
+                        dispatcher.include(req, resp);
+               }
+               else {
+            	   RequestDispatcher dispatcher = req.getRequestDispatcher("dataSaved.jsp");
+                   dispatcher.forward(req, resp);
+               }
+    }
+
+
+}
