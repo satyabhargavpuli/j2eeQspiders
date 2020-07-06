@@ -1,0 +1,6 @@
+package com.basics.testcase;
+
+public interface EmployeeService {
+
+	public void add();
+}

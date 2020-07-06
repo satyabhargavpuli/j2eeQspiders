@@ -1,0 +1,25 @@
+package com.project.food;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
+
+public class FoodCartDbUtil {
+
+	public static List<Food> getFoodList() throws ClassNotFoundException, SQLException {
+		
+		String url = "jdbc:oracle:@localhost:1521:xe";
+		String userName = "mydb";
+		String password = "tiger";
+		
+		Class.forName("oracle.jdbc.driver.OracleDriver");
+		
+		Connection connection = DriverManager.getConnection(url,userName,password);
+		Statement statement = connection.createStatement();
+		ArrayList<Food> food = new ArrayList<>();
+		return food;
+	}
+}

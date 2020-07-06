@@ -1,0 +1,19 @@
+package com.project.food;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FoodCartDbUtil {
+
+	public static List<Food> getFoodList() {
+		
+		String url = "";
+		String userName = "";
+		String password = "";
+		
+		
+		
+		ArrayList<Food> food = new ArrayList<>();
+		return food;
+	}
+}

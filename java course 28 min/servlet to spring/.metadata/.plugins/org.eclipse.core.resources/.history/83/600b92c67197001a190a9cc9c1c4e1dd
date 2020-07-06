@@ -1,0 +1,16 @@
+import org.springframework.stereotype.Component;
+
+public class DependencyInjectionExample {
+
+	GoodMorningService service;
+	
+	
+	
+}
+@Component
+class GoodMorningService {
+	
+	public String hai() {
+		return "hello";
+	}
+}

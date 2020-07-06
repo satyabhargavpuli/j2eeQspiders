@@ -1,0 +1,12 @@
+package collections;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class ArrayInsertion {
+
+	public static <T> void main(String[] args) {
+		List<Integer> arrayData = List.of(2, 4, 6);
+		ArrayList<Integer> intData = new ArrayList(arrayData);
+	}
+}

@@ -1,0 +1,10 @@
+package unittestproj;
+
+import java.sql.DriverManager;
+
+public class Jdbc {
+
+public static void main(String[] args) {
+	DriverManager.getConnection("");
+}
+}

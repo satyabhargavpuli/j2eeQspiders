@@ -1,0 +1,12 @@
+package com.telusko.basics;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Code {
+
+	private Laptop laptop;
+	public void check() {
+		laptop.compile();
+]	}
+}

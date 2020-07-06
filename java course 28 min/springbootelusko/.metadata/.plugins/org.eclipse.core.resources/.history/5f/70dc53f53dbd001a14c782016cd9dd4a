@@ -1,0 +1,8 @@
+package com.telusko.basics;
+
+public class Laptop {
+
+	public void compile() {
+		System.out.println("java code compiled");
+	}
+}

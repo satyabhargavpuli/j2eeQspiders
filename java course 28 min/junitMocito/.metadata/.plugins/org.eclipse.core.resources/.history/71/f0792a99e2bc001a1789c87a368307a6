@@ -1,0 +1,10 @@
+package com.basics.testcase;
+
+public class EmployeeServiceTest implements EmployeeService {
+
+	public void add() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

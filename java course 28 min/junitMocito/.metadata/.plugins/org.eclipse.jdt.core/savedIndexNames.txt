@@ -1,0 +1,22 @@
+INDEX VERSION 1.131+D:\java course 28 min\junitMocito\.metadata\.plugins\org.eclipse.jdt.core
+675504871.index
+1388914957.index
+433239509.index
+3543422066.index
+459889498.index
+3075607264.index
+1661749517.index
+2952007341.index
+275807488.index
+1622149635.index
+1766890525.index
+2416814680.index
+282548734.index
+333097264.index
+1843580265.index
+1532175772.index
+3172370390.index
+309106874.index
+865573789.index
+1795087752.index
+649618597.index

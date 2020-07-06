@@ -1,0 +1,22 @@
+package com.in28minutes.login;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+import org.springframework.beans.factory.annotation.Autowired;
+
+class LoginControllerTest {
+
+	@Autowired
+	LoginController controller;
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+
+	public void check() {
+		System.out.println(controller.hello());
+	}
+	
+}
+

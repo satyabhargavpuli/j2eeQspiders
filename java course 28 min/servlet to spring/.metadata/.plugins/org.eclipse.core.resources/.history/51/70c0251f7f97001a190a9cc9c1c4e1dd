@@ -1,0 +1,16 @@
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class DependencyInjectExample {
+
+	@Test
+	void test() {
+		fail("Not yet implemented");
+	}
+	@Test
+	public void check() {
+		
+	}
+
+}

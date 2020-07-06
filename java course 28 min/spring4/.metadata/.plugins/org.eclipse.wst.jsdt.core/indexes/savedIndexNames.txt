@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+D:\java course 28 min\spring4\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3996142302.index
+2655987422.index
+2384496643.index
+996451988.index
+1816790673.index
+1321966169.index
+1818236420.index

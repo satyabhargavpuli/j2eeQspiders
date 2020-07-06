@@ -1,0 +1,18 @@
+package com.basics.testcase;
+
+import static org.mockito.Mockito.mock;
+
+import org.junit.jupiter.api.Test;
+
+
+public class EmployeeServiceTest implements EmployeeService {
+
+	@Test
+	 void add() {
+        EmployeeService employeeService = mock(EmployeeService.class);
+	      employeeService.add();
+	}
+	
+	
+
+}

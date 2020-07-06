@@ -1,0 +1,8 @@
+package com.project.food;
+
+public class Food {
+
+	public int id;
+	public String item;
+	public String price;
+}

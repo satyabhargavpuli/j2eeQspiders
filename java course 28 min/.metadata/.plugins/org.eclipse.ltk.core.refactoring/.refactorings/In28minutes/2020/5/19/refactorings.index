@@ -1,0 +1,8 @@
+1588496857746	Rename type 'TreeSet'
+1588595777467	Infer generic type arguments
+1588825069626	Extract method 'fpSum'
+1588850298627	Infer generic type arguments
+1588915420192	Extract method 'method1'
+1588915474470	Extract method 'method2'
+1588938312280	Rename type 'Amount'
+1588941777324	Delete element

@@ -1,0 +1,14 @@
+package com.project.food;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FoodCartDbUtil {
+
+	@SuppressWarnings("rawtypes")
+	public static List<Food> getFoodList() {
+		
+		ArrayList<Food> food = new ArrayList<>();
+		return food;
+	}
+}

@@ -1,0 +1,4 @@
+module unittestproj {
+	requires java.sql;
+	requires junit;
+}

@@ -1,0 +1,24 @@
+
+class DependencyInjectExample {
+ 
+	
+	@Autowired
+	GoodMorningService service;
+	
+//	@Test
+//	void test() {
+//		fail("Not yet implemented");
+//	}
+	@Test
+	public void check() {
+		System.out.println(service.hai());
+	}
+
+}
+@Component
+class GoodMorningService {
+	
+	public String hai() {
+		return "hello";
+	}
+}

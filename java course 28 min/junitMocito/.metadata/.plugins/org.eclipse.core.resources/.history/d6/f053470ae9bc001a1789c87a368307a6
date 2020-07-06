@@ -1,0 +1,20 @@
+package com.basics.testcase;
+
+import org.junit.jupiter.api.Test;
+
+class EmployeeServiceTest {
+
+
+		@Test
+		 void test() {
+	        EmployeeService employeeService = mock(EmployeeService.class);
+	        when(employeeService.add()).thenReturn(10);
+	        int count = employeeService.add();
+	        assertEquals(10, count);
+		}
+		
+		
+
+	
+
+}

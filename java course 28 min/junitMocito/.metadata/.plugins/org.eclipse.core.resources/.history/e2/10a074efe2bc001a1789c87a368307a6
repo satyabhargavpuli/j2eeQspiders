@@ -1,0 +1,12 @@
+package com.basics.testcase;
+
+import org.junit.gen5.api.Test;
+
+public class EmployeeServiceTest implements EmployeeService {
+
+	@Test
+	public void add() {
+
+	}
+
+}
